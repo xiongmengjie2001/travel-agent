@@ -1,0 +1,69 @@
+{
+  "cost_per_day": {
+    "lodging": 280,
+    "food": 100,
+    "transit": 30
+  },
+  "spots": [
+    {
+      "name": "青州古城",
+      "ticket": 0,
+      "duration_min": 180,
+      "type": "古迹"
+    },
+    {
+      "name": "十笏园",
+      "ticket": 25,
+      "duration_min": 90,
+      "type": "园林"
+    },
+    {
+      "name": "云门山",
+      "ticket": 60,
+      "duration_min": 180,
+      "type": "自然"
+    },
+    {
+      "name": "沂山风景区",
+      "ticket": 80,
+      "duration_min": 240,
+      "type": "自然"
+    },
+    {
+      "name": "潍坊世界风筝博物馆",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "博物馆"
+    },
+    {
+      "name": "杨家埠民间艺术大观园",
+      "ticket": 50,
+      "duration_min": 120,
+      "type": "街区"
+    },
+    {
+      "name": "白浪绿洲湿地公园",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "公园"
+    },
+    {
+      "name": "浮烟山",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "自然"
+    },
+    {
+      "name": "潍坊滨海旅游度假区",
+      "ticket": 0,
+      "duration_min": 180,
+      "type": "自然"
+    },
+    {
+      "name": "昌乐火山地质公园",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "自然"
+    }
+  ]
+}

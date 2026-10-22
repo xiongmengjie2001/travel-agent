@@ -1,0 +1,69 @@
+{
+  "cost_per_day": {
+    "lodging": 280,
+    "food": 100,
+    "transit": 30
+  },
+  "spots": [
+    {
+      "name": "滕王阁",
+      "ticket": 50,
+      "duration_min": 90,
+      "type": "古迹"
+    },
+    {
+      "name": "绳金塔",
+      "ticket": 0,
+      "duration_min": 60,
+      "type": "古迹"
+    },
+    {
+      "name": "南昌八一起义纪念馆",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "博物馆"
+    },
+    {
+      "name": "江西省博物馆",
+      "ticket": 0,
+      "duration_min": 150,
+      "type": "博物馆"
+    },
+    {
+      "name": "梅岭",
+      "ticket": 0,
+      "duration_min": 180,
+      "type": "自然"
+    },
+    {
+      "name": "艾溪湖湿地公园",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "公园"
+    },
+    {
+      "name": "八一广场",
+      "ticket": 0,
+      "duration_min": 45,
+      "type": "广场"
+    },
+    {
+      "name": "万寿宫历史文化街区",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "街区"
+    },
+    {
+      "name": "西山万寿宫",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "宗教"
+    },
+    {
+      "name": "南昌动物园",
+      "ticket": 30,
+      "duration_min": 150,
+      "type": "娱乐"
+    }
+  ]
+}

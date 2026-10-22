@@ -1,0 +1,69 @@
+{
+  "cost_per_day": {
+    "lodging": 280,
+    "food": 100,
+    "transit": 30
+  },
+  "spots": [
+    {
+      "name": "西柏坡",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "博物馆"
+    },
+    {
+      "name": "赵州桥",
+      "ticket": 40,
+      "duration_min": 60,
+      "type": "古迹"
+    },
+    {
+      "name": "正定古城",
+      "ticket": 0,
+      "duration_min": 180,
+      "type": "古迹"
+    },
+    {
+      "name": "隆兴寺",
+      "ticket": 50,
+      "duration_min": 120,
+      "type": "宗教"
+    },
+    {
+      "name": "柏林禅寺",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "宗教"
+    },
+    {
+      "name": "河北省博物院",
+      "ticket": 0,
+      "duration_min": 180,
+      "type": "博物馆"
+    },
+    {
+      "name": "苍岩山",
+      "ticket": 60,
+      "duration_min": 240,
+      "type": "自然"
+    },
+    {
+      "name": "抱犊寨",
+      "ticket": 50,
+      "duration_min": 180,
+      "type": "自然"
+    },
+    {
+      "name": "石家庄动物园",
+      "ticket": 40,
+      "duration_min": 180,
+      "type": "娱乐"
+    },
+    {
+      "name": "长安公园",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "公园"
+    }
+  ]
+}

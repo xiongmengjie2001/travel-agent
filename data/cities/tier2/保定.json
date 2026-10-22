@@ -1,0 +1,69 @@
+{
+  "cost_per_day": {
+    "lodging": 280,
+    "food": 100,
+    "transit": 30
+  },
+  "spots": [
+    {
+      "name": "野三坡百里峡景区",
+      "ticket": 100,
+      "duration_min": 240,
+      "type": "自然"
+    },
+    {
+      "name": "白洋淀",
+      "ticket": 0,
+      "duration_min": 240,
+      "type": "自然"
+    },
+    {
+      "name": "狼牙山",
+      "ticket": 80,
+      "duration_min": 180,
+      "type": "自然"
+    },
+    {
+      "name": "直隶总督署",
+      "ticket": 30,
+      "duration_min": 90,
+      "type": "古迹"
+    },
+    {
+      "name": "满城汉墓",
+      "ticket": 50,
+      "duration_min": 90,
+      "type": "古迹"
+    },
+    {
+      "name": "古莲花池",
+      "ticket": 20,
+      "duration_min": 90,
+      "type": "园林"
+    },
+    {
+      "name": "冉庄地道战遗址",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "古迹"
+    },
+    {
+      "name": "保定军校纪念馆",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "博物馆"
+    },
+    {
+      "name": "保定市博物馆",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "博物馆"
+    },
+    {
+      "name": "竞秀公园",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "公园"
+    }
+  ]
+}

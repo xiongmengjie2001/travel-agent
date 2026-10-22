@@ -1,0 +1,63 @@
+{
+  "cost_per_day": {
+    "lodging": 280,
+    "food": 110,
+    "transit": 30
+  },
+  "spots": [
+    {
+      "name": "孙中山故里旅游区",
+      "ticket": 0,
+      "duration_min": 180,
+      "type": "古迹"
+    },
+    {
+      "name": "翠亨村",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "古迹"
+    },
+    {
+      "name": "孙文西路文化旅游步行街",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "街区"
+    },
+    {
+      "name": "中山博物馆",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "博物馆"
+    },
+    {
+      "name": "詹园",
+      "ticket": 60,
+      "duration_min": 120,
+      "type": "园林"
+    },
+    {
+      "name": "紫马岭公园",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "公园"
+    },
+    {
+      "name": "岐江公园",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "公园"
+    },
+    {
+      "name": "中山温泉",
+      "ticket": 0,
+      "duration_min": 180,
+      "type": "娱乐"
+    },
+    {
+      "name": "金钟水库",
+      "ticket": 0,
+      "duration_min": 180,
+      "type": "自然"
+    }
+  ]
+}

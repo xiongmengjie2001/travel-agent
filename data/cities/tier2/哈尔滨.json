@@ -1,0 +1,81 @@
+{
+  "cost_per_day": {
+    "lodging": 300,
+    "food": 110,
+    "transit": 30
+  },
+  "spots": [
+    {
+      "name": "哈尔滨冰雪大世界",
+      "ticket": 330,
+      "duration_min": 240,
+      "type": "娱乐"
+    },
+    {
+      "name": "圣索菲亚教堂",
+      "ticket": 0,
+      "duration_min": 45,
+      "type": "宗教"
+    },
+    {
+      "name": "中央大街",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "街区"
+    },
+    {
+      "name": "太阳岛风景区",
+      "ticket": 30,
+      "duration_min": 180,
+      "type": "公园"
+    },
+    {
+      "name": "哈尔滨极地馆",
+      "ticket": 150,
+      "duration_min": 180,
+      "type": "娱乐"
+    },
+    {
+      "name": "黑龙江省博物馆",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "博物馆"
+    },
+    {
+      "name": "防洪纪念塔",
+      "ticket": 0,
+      "duration_min": 45,
+      "type": "地标"
+    },
+    {
+      "name": "东北虎林园",
+      "ticket": 110,
+      "duration_min": 150,
+      "type": "娱乐"
+    },
+    {
+      "name": "龙塔",
+      "ticket": 150,
+      "duration_min": 90,
+      "type": "地标"
+    },
+    {
+      "name": "老道外中华巴洛克",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "街区"
+    },
+    {
+      "name": "哈尔滨工业大学",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "街区"
+    },
+    {
+      "name": "亚布力滑雪旅游度假区",
+      "ticket": 0,
+      "duration_min": 240,
+      "type": "自然"
+    }
+  ]
+}

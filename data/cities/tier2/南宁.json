@@ -1,0 +1,69 @@
+{
+  "cost_per_day": {
+    "lodging": 280,
+    "food": 100,
+    "transit": 30
+  },
+  "spots": [
+    {
+      "name": "青秀山风景区",
+      "ticket": 20,
+      "duration_min": 180,
+      "type": "公园"
+    },
+    {
+      "name": "德天跨国瀑布",
+      "ticket": 80,
+      "duration_min": 240,
+      "type": "自然"
+    },
+    {
+      "name": "明仕田园",
+      "ticket": 0,
+      "duration_min": 180,
+      "type": "自然"
+    },
+    {
+      "name": "广西壮族自治区博物馆",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "博物馆"
+    },
+    {
+      "name": "广西民族博物馆",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "博物馆"
+    },
+    {
+      "name": "南宁动物园",
+      "ticket": 50,
+      "duration_min": 180,
+      "type": "娱乐"
+    },
+    {
+      "name": "南宁方特东盟神画",
+      "ticket": 240,
+      "duration_min": 240,
+      "type": "娱乐"
+    },
+    {
+      "name": "三街两巷",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "街区"
+    },
+    {
+      "name": "南湖公园",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "公园"
+    },
+    {
+      "name": "人民公园",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "公园"
+    }
+  ]
+}

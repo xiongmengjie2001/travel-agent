@@ -1,0 +1,63 @@
+{
+  "cost_per_day": {
+    "lodging": 300,
+    "food": 110,
+    "transit": 30
+  },
+  "spots": [
+    {
+      "name": "鲁迅故里",
+      "ticket": 0,
+      "duration_min": 180,
+      "type": "古迹"
+    },
+    {
+      "name": "沈园",
+      "ticket": 40,
+      "duration_min": 120,
+      "type": "园林"
+    },
+    {
+      "name": "兰亭",
+      "ticket": 70,
+      "duration_min": 120,
+      "type": "古迹"
+    },
+    {
+      "name": "东湖",
+      "ticket": 50,
+      "duration_min": 120,
+      "type": "自然"
+    },
+    {
+      "name": "会稽山大禹陵",
+      "ticket": 60,
+      "duration_min": 150,
+      "type": "古迹"
+    },
+    {
+      "name": "绍兴博物馆",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "博物馆"
+    },
+    {
+      "name": "书圣故里",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "街区"
+    },
+    {
+      "name": "仓桥直街",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "街区"
+    },
+    {
+      "name": "安昌古镇",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "街区"
+    }
+  ]
+}

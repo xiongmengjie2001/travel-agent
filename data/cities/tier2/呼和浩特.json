@@ -1,0 +1,69 @@
+{
+  "cost_per_day": {
+    "lodging": 280,
+    "food": 110,
+    "transit": 30
+  },
+  "spots": [
+    {
+      "name": "大召寺",
+      "ticket": 35,
+      "duration_min": 90,
+      "type": "宗教"
+    },
+    {
+      "name": "席力图召",
+      "ticket": 20,
+      "duration_min": 90,
+      "type": "宗教"
+    },
+    {
+      "name": "五塔寺",
+      "ticket": 10,
+      "duration_min": 60,
+      "type": "宗教"
+    },
+    {
+      "name": "昭君博物院",
+      "ticket": 60,
+      "duration_min": 120,
+      "type": "博物馆"
+    },
+    {
+      "name": "内蒙古博物院",
+      "ticket": 0,
+      "duration_min": 180,
+      "type": "博物馆"
+    },
+    {
+      "name": "大青山",
+      "ticket": 0,
+      "duration_min": 180,
+      "type": "自然"
+    },
+    {
+      "name": "哈素海",
+      "ticket": 0,
+      "duration_min": 180,
+      "type": "自然"
+    },
+    {
+      "name": "草原丝路公园",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "公园"
+    },
+    {
+      "name": "呼和浩特市动物园",
+      "ticket": 0,
+      "duration_min": 150,
+      "type": "娱乐"
+    },
+    {
+      "name": "塞上老街",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "街区"
+    }
+  ]
+}

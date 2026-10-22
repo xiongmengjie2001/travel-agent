@@ -1,0 +1,63 @@
+{
+  "cost_per_day": {
+    "lodging": 300,
+    "food": 110,
+    "transit": 30
+  },
+  "spots": [
+    {
+      "name": "中华恐龙园",
+      "ticket": 260,
+      "duration_min": 240,
+      "type": "娱乐"
+    },
+    {
+      "name": "环球动漫嬉戏谷",
+      "ticket": 230,
+      "duration_min": 240,
+      "type": "娱乐"
+    },
+    {
+      "name": "淹城春秋乐园",
+      "ticket": 160,
+      "duration_min": 240,
+      "type": "娱乐"
+    },
+    {
+      "name": "天目湖",
+      "ticket": 150,
+      "duration_min": 240,
+      "type": "自然"
+    },
+    {
+      "name": "南山竹海",
+      "ticket": 90,
+      "duration_min": 180,
+      "type": "自然"
+    },
+    {
+      "name": "天宁寺",
+      "ticket": 20,
+      "duration_min": 90,
+      "type": "宗教"
+    },
+    {
+      "name": "常州博物馆",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "博物馆"
+    },
+    {
+      "name": "东坡公园",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "公园"
+    },
+    {
+      "name": "青果巷",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "街区"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://travel-agent2.local/schemas/trip_response.json",
+  "title": "TripCard",
+  "description": "前端行程卡片结构，与 src/models/trip.py::TripCard 字段一致。GET /api/trips 的 data 为 TripCard 数组；POST /api/chat 的 data.trip 为单个 TripCard。GET /api/trips/{trip_id} 的 data 为 §$defs.TripRecord（含完整 itinerary 与 intent_raw），不复用本顶层结构。",
+  "type": "object",
+  "properties": {
+    "trip_id": {
+      "type": "string",
+      "description": "行程 ID，前端删除 / 修改的操作句柄（对应 AC-2）。空串表示该卡片不可操作（尚未落库）。"
+    },
+    "destination": {
+      "type": "string",
+      "minLength": 1,
+      "description": "目的地城市。"
+    },
+    "days": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 30,
+      "description": "行程天数。"
+    },
+    "total_cost": {
+      "type": "number",
+      "minimum": 0,
+      "description": "预估总花费（元）。注意与用户输入的预算（TripPlan.budget）不是同一概念。"
+    },
+    "degraded": {
+      "type": "boolean",
+      "default": false,
+      "description": "为 true 时表示模板降级方案，前端需展示「当前为模板方案」（AC-5）。降级不改变 code（仍为 0）。"
+    },
+    "daily": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/DayPlan" },
+      "description": "逐日行程。spots 顺序即当日游览路线顺序（AC-1），调用方与前端均不得重排。"
+    },
+    "weather_report": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/Weather" },
+      "description": "多日天气报告，与 daily[].date 使用同一时间轴。天气工具失败时为空数组。"
+    },
+    "cost_breakdown": {
+      "anyOf": [{ "$ref": "#/$defs/CostBreakdown" }, { "type": "null" }],
+      "description": "花费四段分项。旧数据或工具失败时可能为 null，前端需判空。"
+    },
+    "source": {
+      "type": "string",
+      "enum": ["llm", "template", "unknown"],
+      "default": "unknown",
+      "description": "行程来源标识。degraded 仍是 AC-5 的验收字段，source 只作补充信息。"
+    }
+  },
+  "required": [
+    "trip_id",
+    "destination",
+    "days",
+    "total_cost",
+    "degraded",
+    "daily",
+    "weather_report",
+    "cost_breakdown",
+    "source"
+  ],
+  "$defs": {
+    "Spot": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "duration_min": {
+          "type": "integer",
+          "minimum": 0,
+          "default": 120,
+          "description": "建议游玩时长（分钟）。"
+        },
+        "ticket_price": {
+          "type": "number",
+          "minimum": 0,
+          "default": 0,
+          "description": "门票价格（元）。"
+        }
+      },
+      "required": ["name"]
+    },
+    "Weather": {
+      "type": "object",
+      "properties": {
+        "date": { "type": "string", "format": "date" },
+        "condition": {
+          "type": "string",
+          "description": "天气状况，如 晴 / 多云 / 小雨。"
+        },
+        "temp_high": {
+          "type": ["number", "null"],
+          "default": null,
+          "description": "最高气温（℃）。"
+        },
+        "temp_low": {
+          "type": ["number", "null"],
+          "default": null,
+          "description": "最低气温（℃）。"
+        }
+      },
+      "required": ["date", "condition"]
+    },
+    "DayPlan": {
+      "type": "object",
+      "properties": {
+        "day_index": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "第几天，从 1 开始。"
+        },
+        "date": {
+          "type": ["string", "null"],
+          "format": "date",
+          "default": null,
+          "description": "该日日期，按出发日期逐日递增。"
+        },
+        "spots": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/Spot" },
+          "description": "当日景点列表，顺序即游览路线顺序（AC-1）。"
+        },
+        "estimated_cost": {
+          "type": "number",
+          "minimum": 0,
+          "default": 0,
+          "description": "当日预估花费（元）。"
+        },
+        "weather": {
+          "anyOf": [{ "$ref": "#/$defs/Weather" }, { "type": "null" }],
+          "description": "该日天气。天气工具失败时为 null，不阻断行程生成。"
+        }
+      },
+      "required": ["day_index"]
+    },
+    "CostBreakdown": {
+      "type": "object",
+      "properties": {
+        "days": { "type": "integer", "minimum": 1 },
+        "tickets_total": { "type": "number", "minimum": 0, "description": "门票合计（元）。" },
+        "transport_total": { "type": "number", "minimum": 0, "description": "市内交通合计（元）。" },
+        "lodging_total": { "type": "number", "minimum": 0, "description": "住宿合计（元）。" },
+        "food_total": { "type": "number", "minimum": 0, "description": "餐饮合计（元）。" },
+        "total": { "type": "number", "minimum": 0, "description": "四项之和，等于 TripCard.total_cost。" },
+        "within_budget": {
+          "type": ["boolean", "null"],
+          "default": null,
+          "description": "是否在用户预算内；未提供预算时为 null。"
+        }
+      },
+      "required": ["days", "tickets_total", "transport_total", "lodging_total", "food_total", "total"]
+    },
+    "TripRecord": {
+      "type": "object",
+      "description": "GET /api/trips/{trip_id} 的 data：单条完整行程记录。",
+      "properties": {
+        "trip_id": { "type": "string", "minLength": 1 },
+        "created_at": { "type": "string", "format": "date-time" },
+        "destination": { "type": "string", "minLength": 1 },
+        "days": { "type": "integer", "minimum": 1, "maximum": 30 },
+        "budget": { "type": ["number", "null"], "minimum": 0 },
+        "intent_raw": { "type": "string", "description": "用户原始输入。" },
+        "itinerary": {
+          "type": "object",
+          "description": "完整 TripPlan，含 weather_report / cost_breakdown / source 三个增强字段。"
+        },
+        "degraded": { "type": "boolean", "default": false }
+      },
+      "required": ["trip_id", "created_at", "destination", "days", "intent_raw", "itinerary", "degraded"]
+    }
+  }
+}

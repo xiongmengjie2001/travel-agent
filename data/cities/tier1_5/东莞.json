@@ -1,0 +1,69 @@
+{
+  "cost_per_day": {
+    "lodging": 280,
+    "food": 110,
+    "transit": 30
+  },
+  "spots": [
+    {
+      "name": "鸦片战争博物馆",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "古迹"
+    },
+    {
+      "name": "可园",
+      "ticket": 8,
+      "duration_min": 60,
+      "type": "园林"
+    },
+    {
+      "name": "东莞市博物馆",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "博物馆"
+    },
+    {
+      "name": "松山湖风景区",
+      "ticket": 0,
+      "duration_min": 180,
+      "type": "自然"
+    },
+    {
+      "name": "银瓶山森林公园",
+      "ticket": 0,
+      "duration_min": 180,
+      "type": "自然"
+    },
+    {
+      "name": "华阳湖国家湿地公园",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "公园"
+    },
+    {
+      "name": "旗峰公园",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "公园"
+    },
+    {
+      "name": "大岭山森林公园",
+      "ticket": 0,
+      "duration_min": 180,
+      "type": "自然"
+    },
+    {
+      "name": "梦幻百花洲",
+      "ticket": 60,
+      "duration_min": 120,
+      "type": "娱乐"
+    },
+    {
+      "name": "龙凤山庄影视旅游区",
+      "ticket": 40,
+      "duration_min": 120,
+      "type": "娱乐"
+    }
+  ]
+}

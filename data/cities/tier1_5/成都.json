@@ -1,0 +1,81 @@
+{
+  "cost_per_day": {
+    "lodging": 300,
+    "food": 120,
+    "transit": 40
+  },
+  "spots": [
+    {
+      "name": "成都大熊猫繁育研究基地",
+      "ticket": 55,
+      "duration_min": 180,
+      "type": "自然"
+    },
+    {
+      "name": "武侯祠博物馆",
+      "ticket": 50,
+      "duration_min": 120,
+      "type": "古迹"
+    },
+    {
+      "name": "杜甫草堂博物馆",
+      "ticket": 50,
+      "duration_min": 120,
+      "type": "博物馆"
+    },
+    {
+      "name": "都江堰景区",
+      "ticket": 80,
+      "duration_min": 180,
+      "type": "古迹"
+    },
+    {
+      "name": "青城山",
+      "ticket": 80,
+      "duration_min": 240,
+      "type": "自然"
+    },
+    {
+      "name": "宽窄巷子",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "街区"
+    },
+    {
+      "name": "锦里古街",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "街区"
+    },
+    {
+      "name": "春熙路",
+      "ticket": 0,
+      "duration_min": 60,
+      "type": "街区"
+    },
+    {
+      "name": "成都博物馆",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "博物馆"
+    },
+    {
+      "name": "大慈寺",
+      "ticket": 0,
+      "duration_min": 60,
+      "type": "宗教"
+    },
+    {
+      "name": "文殊院",
+      "ticket": 0,
+      "duration_min": 60,
+      "type": "宗教"
+    },
+    {
+      "name": "人民公园",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "公园"
+    }
+  ]
+}

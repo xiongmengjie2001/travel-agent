@@ -1,0 +1,63 @@
+{
+  "cost_per_day": {
+    "lodging": 300,
+    "food": 110,
+    "transit": 30
+  },
+  "spots": [
+    {
+      "name": "蓬莱阁",
+      "ticket": 100,
+      "duration_min": 180,
+      "type": "古迹"
+    },
+    {
+      "name": "烟台山景区",
+      "ticket": 50,
+      "duration_min": 120,
+      "type": "古迹"
+    },
+    {
+      "name": "张裕酒文化博物馆",
+      "ticket": 70,
+      "duration_min": 120,
+      "type": "博物馆"
+    },
+    {
+      "name": "长岛",
+      "ticket": 0,
+      "duration_min": 240,
+      "type": "自然"
+    },
+    {
+      "name": "养马岛",
+      "ticket": 0,
+      "duration_min": 180,
+      "type": "自然"
+    },
+    {
+      "name": "第一海水浴场",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "自然"
+    },
+    {
+      "name": "烟台海昌鲸鲨馆",
+      "ticket": 120,
+      "duration_min": 120,
+      "type": "娱乐"
+    },
+    {
+      "name": "南山公园",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "公园"
+    },
+    {
+      "name": "朝阳街",
+      "ticket": 0,
+      "duration_min": 60,
+      "type": "街区"
+    }
+  ]
+}

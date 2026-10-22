@@ -1,0 +1,33 @@
+# 环境变量与密钥（CLAUDE.md 禁止事项：禁止提交 .env）
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# SQLite（含 WAL 模式产生的附属文件）
+*.db
+*.db-wal
+*.db-shm
+
+# 前端
+node_modules/
+dist/
+.vite/
+*.local
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

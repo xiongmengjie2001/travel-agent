@@ -1,0 +1,141 @@
+/* 全局样式：只放与具体组件无关的基线设定。
+   组件各自的样式一律写在 .vue 的 <style scoped> 里。
+   颜色统一走 CSS 变量，主题切换由 config store 写入 data-theme。 */
+
+:root {
+  font-family: 'PingFang SC', 'Microsoft YaHei', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text);
+  color-scheme: light;
+
+  --surface: #fff;
+  --surface-muted: #f2f4f7;
+  --surface-subtle: #f9fafb;
+  --surface-card-wrap: #eef1f5;
+  --border: #eaecf0;
+  --border-strong: #d0d5dd;
+  --text: #1d2939;
+  --text-secondary: #667085;
+  --text-muted: #98a2b3;
+  --primary: #2e90fa;
+  --primary-hover: #1570ef;
+  --primary-deep: #175cd3;
+  --primary-soft: #eff8ff;
+  --primary-soft-hover: #d1e9ff;
+  --primary-border: #b2ddff;
+  --primary-ring: rgb(46 144 250 / 12%);
+  --primary-disabled: #b2ddff;
+  --danger: #d92d20;
+  --danger-text: #912018;
+  --danger-surface: #fef3f2;
+  --danger-border: #fda29b;
+  --warning-text: #b54708;
+  --warning-surface: #fffaeb;
+  --warning-border: #f79009;
+  --success: #12b76a;
+  --success-text: #027a48;
+  --success-surface: #ecfdf3;
+  --success-border: #a6f4c5;
+  --shadow-card: 0 1px 3px rgb(16 24 40 / 6%);
+  --shadow-app: 0 0 0 1px var(--border);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+
+  --surface: #1d2939;
+  --surface-muted: #344054;
+  --surface-subtle: #182230;
+  --surface-card-wrap: #263244;
+  --border: #344054;
+  --border-strong: #475467;
+  --text: #f2f4f7;
+  --text-secondary: #d0d5dd;
+  --text-muted: #98a2b3;
+  --primary: #53b1fd;
+  --primary-hover: #84caff;
+  --primary-deep: #1570ef;
+  --primary-soft: #1b3a57;
+  --primary-soft-hover: #234b6e;
+  --primary-border: #2e5f8a;
+  --primary-ring: rgb(83 177 253 / 25%);
+  --primary-disabled: #2e5f8a;
+  --danger: #f97066;
+  --danger-text: #fda29b;
+  --danger-surface: #3b1c1c;
+  --danger-border: #912018;
+  --warning-text: #fec84b;
+  --warning-surface: #3b2f14;
+  --warning-border: #f79009;
+  --success: #32d583;
+  --success-text: #6ce9a6;
+  --success-surface: #14352a;
+  --success-border: #05603a;
+  --shadow-card: 0 1px 3px rgb(0 0 0 / 35%);
+  --shadow-app: 0 0 0 1px var(--border);
+}
+
+/* 主题为“跟随系统”时不写 data-theme，由媒体查询接管。 */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    color-scheme: dark;
+
+    --surface: #1d2939;
+    --surface-muted: #344054;
+    --surface-subtle: #182230;
+    --surface-card-wrap: #263244;
+    --border: #344054;
+    --border-strong: #475467;
+    --text: #f2f4f7;
+    --text-secondary: #d0d5dd;
+    --text-muted: #98a2b3;
+    --primary: #53b1fd;
+    --primary-hover: #84caff;
+    --primary-deep: #1570ef;
+    --primary-soft: #1b3a57;
+    --primary-soft-hover: #234b6e;
+    --primary-border: #2e5f8a;
+    --primary-ring: rgb(83 177 253 / 25%);
+    --primary-disabled: #2e5f8a;
+    --danger: #f97066;
+    --danger-text: #fda29b;
+    --danger-surface: #3b1c1c;
+    --danger-border: #912018;
+    --warning-text: #fec84b;
+    --warning-surface: #3b2f14;
+    --warning-border: #f79009;
+    --success: #32d583;
+    --success-text: #6ce9a6;
+    --success-surface: #14352a;
+    --success-border: #05603a;
+    --shadow-card: 0 1px 3px rgb(0 0 0 / 35%);
+    --shadow-app: 0 0 0 1px var(--border);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  color: var(--text);
+  background: var(--surface-muted);
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}

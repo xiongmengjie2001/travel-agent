@@ -1,0 +1,81 @@
+{
+  "cost_per_day": {
+    "lodging": 350,
+    "food": 130,
+    "transit": 40
+  },
+  "spots": [
+    {
+      "name": "鼓浪屿",
+      "ticket": 0,
+      "duration_min": 240,
+      "type": "街区"
+    },
+    {
+      "name": "日光岩",
+      "ticket": 60,
+      "duration_min": 90,
+      "type": "地标"
+    },
+    {
+      "name": "厦门园林植物园",
+      "ticket": 40,
+      "duration_min": 180,
+      "type": "园林"
+    },
+    {
+      "name": "胡里山炮台",
+      "ticket": 25,
+      "duration_min": 90,
+      "type": "古迹"
+    },
+    {
+      "name": "厦门海底世界",
+      "ticket": 117,
+      "duration_min": 120,
+      "type": "娱乐"
+    },
+    {
+      "name": "南普陀寺",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "宗教"
+    },
+    {
+      "name": "厦门大学",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "街区"
+    },
+    {
+      "name": "环岛路",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "自然"
+    },
+    {
+      "name": "中山路步行街",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "街区"
+    },
+    {
+      "name": "曾厝垵",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "街区"
+    },
+    {
+      "name": "集美学村",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "街区"
+    },
+    {
+      "name": "白鹭洲公园",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "公园"
+    }
+  ]
+}

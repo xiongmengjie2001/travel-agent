@@ -1,0 +1,87 @@
+{
+  "cost_per_day": {
+    "lodging": 300,
+    "food": 120,
+    "transit": 40
+  },
+  "spots": [
+    {
+      "name": "拙政园",
+      "ticket": 80,
+      "duration_min": 180,
+      "type": "园林"
+    },
+    {
+      "name": "虎丘",
+      "ticket": 70,
+      "duration_min": 150,
+      "type": "园林"
+    },
+    {
+      "name": "留园",
+      "ticket": 55,
+      "duration_min": 120,
+      "type": "园林"
+    },
+    {
+      "name": "狮子林",
+      "ticket": 40,
+      "duration_min": 120,
+      "type": "园林"
+    },
+    {
+      "name": "网师园",
+      "ticket": 40,
+      "duration_min": 90,
+      "type": "园林"
+    },
+    {
+      "name": "苏州博物馆",
+      "ticket": 0,
+      "duration_min": 150,
+      "type": "博物馆"
+    },
+    {
+      "name": "周庄古镇",
+      "ticket": 100,
+      "duration_min": 180,
+      "type": "古迹"
+    },
+    {
+      "name": "同里古镇",
+      "ticket": 100,
+      "duration_min": 180,
+      "type": "古迹"
+    },
+    {
+      "name": "平江路",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "街区"
+    },
+    {
+      "name": "观前街",
+      "ticket": 0,
+      "duration_min": 60,
+      "type": "街区"
+    },
+    {
+      "name": "寒山寺",
+      "ticket": 20,
+      "duration_min": 60,
+      "type": "宗教"
+    },
+    {
+      "name": "金鸡湖",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "自然"
+    },
+    {
+      "name": "盘门景区",
+      "ticket": 40,
+      "duration_min": 90,
+      "type": "古迹"
+    }
+  ]
+}

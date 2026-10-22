@@ -1,0 +1,69 @@
+{
+  "cost_per_day": {
+    "lodging": 300,
+    "food": 110,
+    "transit": 30
+  },
+  "spots": [
+    {
+      "name": "罗浮山风景名胜区",
+      "ticket": 60,
+      "duration_min": 240,
+      "type": "自然"
+    },
+    {
+      "name": "西湖风景区",
+      "ticket": 0,
+      "duration_min": 180,
+      "type": "公园"
+    },
+    {
+      "name": "双月湾",
+      "ticket": 0,
+      "duration_min": 180,
+      "type": "自然"
+    },
+    {
+      "name": "巽寮湾",
+      "ticket": 0,
+      "duration_min": 240,
+      "type": "自然"
+    },
+    {
+      "name": "南昆山国家森林公园",
+      "ticket": 60,
+      "duration_min": 240,
+      "type": "自然"
+    },
+    {
+      "name": "红花湖",
+      "ticket": 0,
+      "duration_min": 180,
+      "type": "公园"
+    },
+    {
+      "name": "惠州博物馆",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "博物馆"
+    },
+    {
+      "name": "叶挺故居",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "古迹"
+    },
+    {
+      "name": "惠州植物园",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "公园"
+    },
+    {
+      "name": "水东街",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "街区"
+    }
+  ]
+}

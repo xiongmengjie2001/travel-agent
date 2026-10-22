@@ -1,0 +1,69 @@
+{
+  "cost_per_day": {
+    "lodging": 280,
+    "food": 110,
+    "transit": 30
+  },
+  "spots": [
+    {
+      "name": "佛山祖庙",
+      "ticket": 20,
+      "duration_min": 90,
+      "type": "古迹"
+    },
+    {
+      "name": "南风古灶",
+      "ticket": 20,
+      "duration_min": 90,
+      "type": "古迹"
+    },
+    {
+      "name": "广东石湾陶瓷博物馆",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "博物馆"
+    },
+    {
+      "name": "西樵山风景名胜区",
+      "ticket": 55,
+      "duration_min": 240,
+      "type": "自然"
+    },
+    {
+      "name": "顺德清晖园",
+      "ticket": 15,
+      "duration_min": 120,
+      "type": "园林"
+    },
+    {
+      "name": "梁园",
+      "ticket": 10,
+      "duration_min": 90,
+      "type": "园林"
+    },
+    {
+      "name": "岭南天地",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "街区"
+    },
+    {
+      "name": "逢简水乡",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "街区"
+    },
+    {
+      "name": "长鹿旅游休博园",
+      "ticket": 120,
+      "duration_min": 180,
+      "type": "娱乐"
+    },
+    {
+      "name": "千灯湖公园",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "公园"
+    }
+  ]
+}

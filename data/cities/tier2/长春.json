@@ -1,0 +1,69 @@
+{
+  "cost_per_day": {
+    "lodging": 280,
+    "food": 100,
+    "transit": 30
+  },
+  "spots": [
+    {
+      "name": "伪满皇宫博物院",
+      "ticket": 70,
+      "duration_min": 180,
+      "type": "古迹"
+    },
+    {
+      "name": "伪满八大部",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "古迹"
+    },
+    {
+      "name": "吉林省博物院",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "博物馆"
+    },
+    {
+      "name": "长影旧址博物馆",
+      "ticket": 90,
+      "duration_min": 120,
+      "type": "博物馆"
+    },
+    {
+      "name": "净月潭国家森林公园",
+      "ticket": 30,
+      "duration_min": 180,
+      "type": "公园"
+    },
+    {
+      "name": "长春世界雕塑公园",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "公园"
+    },
+    {
+      "name": "南湖公园",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "公园"
+    },
+    {
+      "name": "长春动植物公园",
+      "ticket": 30,
+      "duration_min": 150,
+      "type": "娱乐"
+    },
+    {
+      "name": "长影世纪城",
+      "ticket": 240,
+      "duration_min": 240,
+      "type": "娱乐"
+    },
+    {
+      "name": "红旗街商圈",
+      "ticket": 0,
+      "duration_min": 60,
+      "type": "街区"
+    }
+  ]
+}

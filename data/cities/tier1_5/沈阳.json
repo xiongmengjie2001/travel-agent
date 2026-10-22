@@ -1,0 +1,75 @@
+{
+  "cost_per_day": {
+    "lodging": 280,
+    "food": 110,
+    "transit": 30
+  },
+  "spots": [
+    {
+      "name": "沈阳故宫博物院",
+      "ticket": 50,
+      "duration_min": 150,
+      "type": "古迹"
+    },
+    {
+      "name": "张氏帅府",
+      "ticket": 46,
+      "duration_min": 120,
+      "type": "古迹"
+    },
+    {
+      "name": "北陵公园",
+      "ticket": 20,
+      "duration_min": 120,
+      "type": "公园"
+    },
+    {
+      "name": "东陵公园",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "古迹"
+    },
+    {
+      "name": "辽宁省博物馆",
+      "ticket": 0,
+      "duration_min": 180,
+      "type": "博物馆"
+    },
+    {
+      "name": "九一八历史博物馆",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "博物馆"
+    },
+    {
+      "name": "沈阳世博园",
+      "ticket": 50,
+      "duration_min": 180,
+      "type": "公园"
+    },
+    {
+      "name": "中街",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "街区"
+    },
+    {
+      "name": "棋盘山",
+      "ticket": 0,
+      "duration_min": 180,
+      "type": "自然"
+    },
+    {
+      "name": "沈阳方特欢乐世界",
+      "ticket": 220,
+      "duration_min": 240,
+      "type": "娱乐"
+    },
+    {
+      "name": "太清宫",
+      "ticket": 5,
+      "duration_min": 60,
+      "type": "宗教"
+    }
+  ]
+}

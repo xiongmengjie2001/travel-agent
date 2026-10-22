@@ -1,0 +1,69 @@
+{
+  "cost_per_day": {
+    "lodging": 280,
+    "food": 100,
+    "transit": 30
+  },
+  "spots": [
+    {
+      "name": "晋祠",
+      "ticket": 80,
+      "duration_min": 180,
+      "type": "古迹"
+    },
+    {
+      "name": "天龙山石窟",
+      "ticket": 50,
+      "duration_min": 120,
+      "type": "古迹"
+    },
+    {
+      "name": "双塔寺",
+      "ticket": 30,
+      "duration_min": 90,
+      "type": "宗教"
+    },
+    {
+      "name": "崇善寺",
+      "ticket": 0,
+      "duration_min": 60,
+      "type": "宗教"
+    },
+    {
+      "name": "山西博物院",
+      "ticket": 0,
+      "duration_min": 180,
+      "type": "博物馆"
+    },
+    {
+      "name": "中国煤炭博物馆",
+      "ticket": 60,
+      "duration_min": 120,
+      "type": "博物馆"
+    },
+    {
+      "name": "汾河公园",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "公园"
+    },
+    {
+      "name": "迎泽公园",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "公园"
+    },
+    {
+      "name": "太原动物园",
+      "ticket": 10,
+      "duration_min": 150,
+      "type": "娱乐"
+    },
+    {
+      "name": "青龙古镇",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "街区"
+    }
+  ]
+}

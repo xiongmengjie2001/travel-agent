@@ -1,0 +1,63 @@
+{
+  "cost_per_day": {
+    "lodging": 280,
+    "food": 100,
+    "transit": 30
+  },
+  "spots": [
+    {
+      "name": "狼山风景名胜区",
+      "ticket": 70,
+      "duration_min": 180,
+      "type": "古迹"
+    },
+    {
+      "name": "濠河风景名胜区",
+      "ticket": 0,
+      "duration_min": 180,
+      "type": "公园"
+    },
+    {
+      "name": "南通博物苑",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "博物馆"
+    },
+    {
+      "name": "钟楼",
+      "ticket": 0,
+      "duration_min": 45,
+      "type": "地标"
+    },
+    {
+      "name": "南通森林野生动物园",
+      "ticket": 180,
+      "duration_min": 240,
+      "type": "娱乐"
+    },
+    {
+      "name": "啬园",
+      "ticket": 20,
+      "duration_min": 90,
+      "type": "园林"
+    },
+    {
+      "name": "军山",
+      "ticket": 20,
+      "duration_min": 120,
+      "type": "自然"
+    },
+    {
+      "name": "南通洲际绿博园",
+      "ticket": 50,
+      "duration_min": 120,
+      "type": "公园"
+    },
+    {
+      "name": "寺街",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "街区"
+    }
+  ]
+}

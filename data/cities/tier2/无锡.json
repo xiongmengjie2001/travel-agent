@@ -1,0 +1,75 @@
+{
+  "cost_per_day": {
+    "lodging": 280,
+    "food": 110,
+    "transit": 30
+  },
+  "spots": [
+    {
+      "name": "太湖鼋头渚风景区",
+      "ticket": 90,
+      "duration_min": 180,
+      "type": "自然"
+    },
+    {
+      "name": "灵山大佛",
+      "ticket": 210,
+      "duration_min": 180,
+      "type": "宗教"
+    },
+    {
+      "name": "无锡博物院",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "博物馆"
+    },
+    {
+      "name": "惠山古镇",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "街区"
+    },
+    {
+      "name": "南长街",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "街区"
+    },
+    {
+      "name": "蠡园",
+      "ticket": 45,
+      "duration_min": 90,
+      "type": "园林"
+    },
+    {
+      "name": "梅园",
+      "ticket": 60,
+      "duration_min": 120,
+      "type": "园林"
+    },
+    {
+      "name": "锡惠公园",
+      "ticket": 20,
+      "duration_min": 120,
+      "type": "公园"
+    },
+    {
+      "name": "三国水浒城",
+      "ticket": 150,
+      "duration_min": 240,
+      "type": "娱乐"
+    },
+    {
+      "name": "灵山小镇拈花湾",
+      "ticket": 120,
+      "duration_min": 180,
+      "type": "娱乐"
+    },
+    {
+      "name": "荡口古镇",
+      "ticket": 50,
+      "duration_min": 120,
+      "type": "街区"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "cost_per_day": {
+    "lodging": 300,
+    "food": 120,
+    "transit": 30
+  },
+  "spots": [
+    {
+      "name": "天山天池",
+      "ticket": 150,
+      "duration_min": 240,
+      "type": "自然"
+    },
+    {
+      "name": "南山牧场",
+      "ticket": 0,
+      "duration_min": 240,
+      "type": "自然"
+    },
+    {
+      "name": "新疆博物馆",
+      "ticket": 0,
+      "duration_min": 180,
+      "type": "博物馆"
+    },
+    {
+      "name": "红山公园",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "公园"
+    },
+    {
+      "name": "新疆国际大巴扎",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "街区"
+    },
+    {
+      "name": "人民公园",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "公园"
+    },
+    {
+      "name": "达坂城风力发电站",
+      "ticket": 0,
+      "duration_min": 60,
+      "type": "地标"
+    },
+    {
+      "name": "汗血宝马基地",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "娱乐"
+    },
+    {
+      "name": "盐湖",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "自然"
+    }
+  ]
+}

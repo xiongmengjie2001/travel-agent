@@ -1,0 +1,75 @@
+{
+  "cost_per_day": {
+    "lodging": 280,
+    "food": 100,
+    "transit": 30
+  },
+  "spots": [
+    {
+      "name": "嵩山少林寺",
+      "ticket": 80,
+      "duration_min": 240,
+      "type": "宗教"
+    },
+    {
+      "name": "嵩阳书院",
+      "ticket": 30,
+      "duration_min": 90,
+      "type": "古迹"
+    },
+    {
+      "name": "康百万庄园",
+      "ticket": 75,
+      "duration_min": 120,
+      "type": "古迹"
+    },
+    {
+      "name": "黄帝故里",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "古迹"
+    },
+    {
+      "name": "河南博物院",
+      "ticket": 0,
+      "duration_min": 180,
+      "type": "博物馆"
+    },
+    {
+      "name": "郑州黄河风景名胜区",
+      "ticket": 60,
+      "duration_min": 180,
+      "type": "自然"
+    },
+    {
+      "name": "中原福塔",
+      "ticket": 90,
+      "duration_min": 90,
+      "type": "地标"
+    },
+    {
+      "name": "二七纪念塔",
+      "ticket": 0,
+      "duration_min": 45,
+      "type": "地标"
+    },
+    {
+      "name": "郑州方特欢乐世界",
+      "ticket": 260,
+      "duration_min": 240,
+      "type": "娱乐"
+    },
+    {
+      "name": "郑州植物园",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "公园"
+    },
+    {
+      "name": "郑州之林",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "公园"
+    }
+  ]
+}

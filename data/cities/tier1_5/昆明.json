@@ -1,0 +1,75 @@
+{
+  "cost_per_day": {
+    "lodging": 300,
+    "food": 110,
+    "transit": 30
+  },
+  "spots": [
+    {
+      "name": "石林风景名胜区",
+      "ticket": 130,
+      "duration_min": 240,
+      "type": "自然"
+    },
+    {
+      "name": "滇池",
+      "ticket": 0,
+      "duration_min": 180,
+      "type": "自然"
+    },
+    {
+      "name": "西山风景名胜区",
+      "ticket": 40,
+      "duration_min": 240,
+      "type": "自然"
+    },
+    {
+      "name": "云南民族村",
+      "ticket": 90,
+      "duration_min": 180,
+      "type": "娱乐"
+    },
+    {
+      "name": "昆明世界园艺博览园",
+      "ticket": 100,
+      "duration_min": 180,
+      "type": "公园"
+    },
+    {
+      "name": "翠湖公园",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "公园"
+    },
+    {
+      "name": "大观楼",
+      "ticket": 20,
+      "duration_min": 120,
+      "type": "古迹"
+    },
+    {
+      "name": "云南陆军讲武堂旧址",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "博物馆"
+    },
+    {
+      "name": "云南省博物馆",
+      "ticket": 0,
+      "duration_min": 150,
+      "type": "博物馆"
+    },
+    {
+      "name": "金马碧鸡坊",
+      "ticket": 0,
+      "duration_min": 45,
+      "type": "地标"
+    },
+    {
+      "name": "金殿风景区",
+      "ticket": 30,
+      "duration_min": 120,
+      "type": "宗教"
+    }
+  ]
+}

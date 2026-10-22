@@ -1,0 +1,63 @@
+{
+  "cost_per_day": {
+    "lodging": 300,
+    "food": 110,
+    "transit": 30
+  },
+  "spots": [
+    {
+      "name": "南湖风景名胜区",
+      "ticket": 0,
+      "duration_min": 180,
+      "type": "公园"
+    },
+    {
+      "name": "乌镇景区",
+      "ticket": 150,
+      "duration_min": 240,
+      "type": "街区"
+    },
+    {
+      "name": "西塘古镇",
+      "ticket": 110,
+      "duration_min": 180,
+      "type": "街区"
+    },
+    {
+      "name": "盐官观潮景区",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "自然"
+    },
+    {
+      "name": "南北湖",
+      "ticket": 0,
+      "duration_min": 180,
+      "type": "自然"
+    },
+    {
+      "name": "月河历史街区",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "街区"
+    },
+    {
+      "name": "绮园",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "园林"
+    },
+    {
+      "name": "嘉兴博物馆",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "博物馆"
+    },
+    {
+      "name": "嘉兴子城遗址",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "古迹"
+    }
+  ]
+}

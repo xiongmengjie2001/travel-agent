@@ -1,0 +1,75 @@
+{
+  "cost_per_day": {
+    "lodging": 350,
+    "food": 130,
+    "transit": 40
+  },
+  "spots": [
+    {
+      "name": "大连老虎滩海洋公园",
+      "ticket": 220,
+      "duration_min": 240,
+      "type": "娱乐"
+    },
+    {
+      "name": "大连圣亚海洋世界",
+      "ticket": 200,
+      "duration_min": 180,
+      "type": "娱乐"
+    },
+    {
+      "name": "大连森林动物园",
+      "ticket": 120,
+      "duration_min": 180,
+      "type": "娱乐"
+    },
+    {
+      "name": "棒棰岛",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "自然"
+    },
+    {
+      "name": "金石滩",
+      "ticket": 0,
+      "duration_min": 240,
+      "type": "自然"
+    },
+    {
+      "name": "星海广场",
+      "ticket": 0,
+      "duration_min": 60,
+      "type": "广场"
+    },
+    {
+      "name": "中山广场",
+      "ticket": 0,
+      "duration_min": 45,
+      "type": "广场"
+    },
+    {
+      "name": "大连现代博物馆",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "博物馆"
+    },
+    {
+      "name": "海之韵公园",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "公园"
+    },
+    {
+      "name": "渔人码头",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "街区"
+    },
+    {
+      "name": "旅顺博物馆",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "博物馆"
+    }
+  ]
+}

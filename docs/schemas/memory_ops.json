@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://travel-agent2.local/schemas/memory_ops.json",
+  "title": "MemoryOps",
+  "description": "记忆操作的请求体：save 保存行程 / list 列出全部 / search 按关键词检索 / delete 按 trip_id 删除。对应 FR-2 行程记忆管理。",
+  "$comment": "⚠️ 该端点目前不存在。system-design.md 的接口表中，记忆能力由 RESTful 方式暴露：GET /api/trips（列表）、GET /api/trips/search?keyword=、DELETE /api/trips/{trip_id}；保存则由 /api/chat 的 plan_trip 动作内部自动完成（AC-2）。本文件描述的是【候选设计】——以单一端点 + action 分派取代上述三个端点。要落地必须先改 system-design.md 的接口表，并确认是否废弃现有 RESTful 设计。另：action 取值与 Scheduler/Bridge 的动作常量（plan_trip / list_trips / search_trips / delete_trip）不同源，注意映射。",
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": ["save", "list", "search", "delete"],
+      "description": "操作类型。save 无附加字段，list 无附加字段。"
+    },
+    "keyword": {
+      "type": ["string", "null"],
+      "default": null,
+      "description": "search 使用：检索关键词，与目的地或原始输入做匹配。"
+    },
+    "trip_id": {
+      "type": ["string", "null"],
+      "default": null,
+      "description": "delete 使用：目标行程的 trip_id。"
+    }
+  },
+  "required": ["action"],
+  "allOf": [
+    {
+      "if": { "properties": { "action": { "const": "search" } }, "required": ["action"] },
+      "then": { "required": ["keyword"] }
+    },
+    {
+      "if": { "properties": { "action": { "const": "delete" } }, "required": ["action"] },
+      "then": { "required": ["trip_id"] }
+    }
+  ],
+  "unlisted": {
+    "note": "save 动作的载荷未定义",
+    "detail": "本 Schema 只描述了 action / keyword / trip_id 三个字段，save 缺少所要保存的行程内容。若 save 意在由前端直接落库，需补充 payload 字段并明确用哪一层模型（Itinerary 还是 TripCard）。"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "cost_per_day": {
+    "lodging": 300,
+    "food": 120,
+    "transit": 40
+  },
+  "spots": [
+    {
+      "name": "秦始皇帝陵博物院",
+      "ticket": 120,
+      "duration_min": 240,
+      "type": "古迹"
+    },
+    {
+      "name": "西安城墙",
+      "ticket": 54,
+      "duration_min": 180,
+      "type": "古迹"
+    },
+    {
+      "name": "大雁塔",
+      "ticket": 40,
+      "duration_min": 90,
+      "type": "古迹"
+    },
+    {
+      "name": "大唐芙蓉园",
+      "ticket": 120,
+      "duration_min": 180,
+      "type": "园林"
+    },
+    {
+      "name": "华清宫",
+      "ticket": 120,
+      "duration_min": 180,
+      "type": "古迹"
+    },
+    {
+      "name": "陕西历史博物馆",
+      "ticket": 0,
+      "duration_min": 180,
+      "type": "博物馆"
+    },
+    {
+      "name": "碑林博物馆",
+      "ticket": 50,
+      "duration_min": 120,
+      "type": "博物馆"
+    },
+    {
+      "name": "大明宫国家遗址公园",
+      "ticket": 60,
+      "duration_min": 150,
+      "type": "古迹"
+    },
+    {
+      "name": "钟楼",
+      "ticket": 30,
+      "duration_min": 45,
+      "type": "地标"
+    },
+    {
+      "name": "回民街",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "街区"
+    },
+    {
+      "name": "大唐不夜城",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "街区"
+    },
+    {
+      "name": "小雁塔",
+      "ticket": 0,
+      "duration_min": 60,
+      "type": "古迹"
+    },
+    {
+      "name": "青龙寺",
+      "ticket": 0,
+      "duration_min": 60,
+      "type": "宗教"
+    }
+  ]
+}

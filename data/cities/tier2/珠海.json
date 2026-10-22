@@ -1,0 +1,69 @@
+{
+  "cost_per_day": {
+    "lodging": 350,
+    "food": 130,
+    "transit": 40
+  },
+  "spots": [
+    {
+      "name": "珠海长隆海洋王国",
+      "ticket": 380,
+      "duration_min": 480,
+      "type": "娱乐"
+    },
+    {
+      "name": "珠海渔女",
+      "ticket": 0,
+      "duration_min": 45,
+      "type": "地标"
+    },
+    {
+      "name": "情侣路",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "地标"
+    },
+    {
+      "name": "圆明新园",
+      "ticket": 0,
+      "duration_min": 180,
+      "type": "园林"
+    },
+    {
+      "name": "外伶仃岛",
+      "ticket": 0,
+      "duration_min": 240,
+      "type": "自然"
+    },
+    {
+      "name": "东澳岛",
+      "ticket": 0,
+      "duration_min": 240,
+      "type": "自然"
+    },
+    {
+      "name": "珠海博物馆",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "博物馆"
+    },
+    {
+      "name": "石景山公园",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "公园"
+    },
+    {
+      "name": "梦幻水城",
+      "ticket": 0,
+      "duration_min": 180,
+      "type": "娱乐"
+    },
+    {
+      "name": "唐家湾古镇",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "街区"
+    }
+  ]
+}

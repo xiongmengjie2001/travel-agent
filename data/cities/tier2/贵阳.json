@@ -1,0 +1,69 @@
+{
+  "cost_per_day": {
+    "lodging": 280,
+    "food": 100,
+    "transit": 30
+  },
+  "spots": [
+    {
+      "name": "黄果树瀑布",
+      "ticket": 160,
+      "duration_min": 240,
+      "type": "自然"
+    },
+    {
+      "name": "天河潭旅游度假区",
+      "ticket": 40,
+      "duration_min": 180,
+      "type": "自然"
+    },
+    {
+      "name": "黔灵山公园",
+      "ticket": 5,
+      "duration_min": 180,
+      "type": "公园"
+    },
+    {
+      "name": "花溪公园",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "公园"
+    },
+    {
+      "name": "青岩古镇",
+      "ticket": 10,
+      "duration_min": 180,
+      "type": "古迹"
+    },
+    {
+      "name": "甲秀楼",
+      "ticket": 0,
+      "duration_min": 60,
+      "type": "古迹"
+    },
+    {
+      "name": "孔学堂",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "古迹"
+    },
+    {
+      "name": "贵州省博物馆",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "博物馆"
+    },
+    {
+      "name": "多彩贵州城",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "娱乐"
+    },
+    {
+      "name": "花果园湿地公园",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "公园"
+    }
+  ]
+}

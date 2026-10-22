@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://travel-agent2.local/schemas/chat_request.json",
+  "title": "ChatRequest",
+  "description": "POST /api/chat 的请求体（FR-1 对话式行程规划 / FR-4 对话式交互）。与 src/models/chat.py 的 ChatRequest 字段完全一致。",
+  "$comment": "本 Schema 不受 Bridge.parse_chat_request(payload: dict) 的裸 dict 例外影响 —— 该例外只存在于方法签名，进入内部后立即校验为 ChatRequest。",
+  "type": "object",
+  "properties": {
+    "message": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1000,
+      "pattern": "\\S",
+      "description": "用户输入文本。服务端会先去除首尾空白，纯空白输入按校验失败处理（NFR-3 输入防护）。"
+    },
+    "session_id": {
+      "type": ["string", "null"],
+      "default": null,
+      "description": "连续对话的会话标识（FR-4 的追问与修改）。前端首次请求可不传，由后端生成后回传。"
+    },
+    "start_date": {
+      "type": ["string", "null"],
+      "format": "date",
+      "default": null,
+      "description": "出发日期（ISO 8601，如 2026-10-25）。优先级：本字段 > 文本中的日期 > 默认明天。非法日期按 1001 处理。"
+    }
+  },
+  "required": ["message"]
+}

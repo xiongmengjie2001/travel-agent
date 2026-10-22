@@ -1,0 +1,81 @@
+{
+  "cost_per_day": {
+    "lodging": 350,
+    "food": 150,
+    "transit": 50
+  },
+  "spots": [
+    {
+      "name": "世界之窗",
+      "ticket": 220,
+      "duration_min": 240,
+      "type": "娱乐"
+    },
+    {
+      "name": "锦绣中华民俗村",
+      "ticket": 220,
+      "duration_min": 240,
+      "type": "娱乐"
+    },
+    {
+      "name": "深圳欢乐谷",
+      "ticket": 230,
+      "duration_min": 240,
+      "type": "娱乐"
+    },
+    {
+      "name": "东部华侨城",
+      "ticket": 180,
+      "duration_min": 240,
+      "type": "自然"
+    },
+    {
+      "name": "大梅沙海滨公园",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "自然"
+    },
+    {
+      "name": "深圳湾公园",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "公园"
+    },
+    {
+      "name": "莲花山公园",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "公园"
+    },
+    {
+      "name": "仙湖植物园",
+      "ticket": 15,
+      "duration_min": 180,
+      "type": "公园"
+    },
+    {
+      "name": "深圳博物馆",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "博物馆"
+    },
+    {
+      "name": "华侨城创意文化园",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "街区"
+    },
+    {
+      "name": "东门老街",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "街区"
+    },
+    {
+      "name": "华强北商业街",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "街区"
+    }
+  ]
+}

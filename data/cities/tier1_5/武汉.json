@@ -1,0 +1,87 @@
+{
+  "cost_per_day": {
+    "lodging": 300,
+    "food": 120,
+    "transit": 40
+  },
+  "spots": [
+    {
+      "name": "黄鹤楼",
+      "ticket": 70,
+      "duration_min": 90,
+      "type": "古迹"
+    },
+    {
+      "name": "湖北省博物馆",
+      "ticket": 0,
+      "duration_min": 180,
+      "type": "博物馆"
+    },
+    {
+      "name": "东湖风景区",
+      "ticket": 0,
+      "duration_min": 180,
+      "type": "自然"
+    },
+    {
+      "name": "武汉长江大桥",
+      "ticket": 0,
+      "duration_min": 45,
+      "type": "地标"
+    },
+    {
+      "name": "户部巷",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "街区"
+    },
+    {
+      "name": "江汉路步行街",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "街区"
+    },
+    {
+      "name": "昙华林",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "街区"
+    },
+    {
+      "name": "汉口江滩",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "公园"
+    },
+    {
+      "name": "武汉大学",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "街区"
+    },
+    {
+      "name": "归元禅寺",
+      "ticket": 20,
+      "duration_min": 90,
+      "type": "宗教"
+    },
+    {
+      "name": "古琴台",
+      "ticket": 0,
+      "duration_min": 60,
+      "type": "古迹"
+    },
+    {
+      "name": "晴川阁",
+      "ticket": 0,
+      "duration_min": 60,
+      "type": "古迹"
+    },
+    {
+      "name": "辛亥革命博物院",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "博物馆"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "cost_per_day": {
+    "lodging": 350,
+    "food": 130,
+    "transit": 40
+  },
+  "spots": [
+    {
+      "name": "西湖风景名胜区",
+      "ticket": 0,
+      "duration_min": 240,
+      "type": "自然"
+    },
+    {
+      "name": "灵隐寺",
+      "ticket": 30,
+      "duration_min": 90,
+      "type": "宗教"
+    },
+    {
+      "name": "雷峰塔",
+      "ticket": 40,
+      "duration_min": 90,
+      "type": "古迹"
+    },
+    {
+      "name": "六和塔",
+      "ticket": 20,
+      "duration_min": 60,
+      "type": "古迹"
+    },
+    {
+      "name": "西溪国家湿地公园",
+      "ticket": 80,
+      "duration_min": 180,
+      "type": "自然"
+    },
+    {
+      "name": "千岛湖",
+      "ticket": 150,
+      "duration_min": 240,
+      "type": "自然"
+    },
+    {
+      "name": "宋城",
+      "ticket": 310,
+      "duration_min": 240,
+      "type": "娱乐"
+    },
+    {
+      "name": "岳王庙",
+      "ticket": 25,
+      "duration_min": 90,
+      "type": "古迹"
+    },
+    {
+      "name": "河坊街",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "街区"
+    },
+    {
+      "name": "杭州博物馆",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "博物馆"
+    },
+    {
+      "name": "断桥残雪",
+      "ticket": 0,
+      "duration_min": 60,
+      "type": "地标"
+    },
+    {
+      "name": "太子湾公园",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "公园"
+    }
+  ]
+}

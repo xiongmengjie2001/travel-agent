@@ -1,0 +1,93 @@
+{
+  "cost_per_day": {
+    "lodging": 400,
+    "food": 150,
+    "transit": 50
+  },
+  "spots": [
+    {
+      "name": "故宫博物院",
+      "ticket": 60,
+      "duration_min": 240,
+      "type": "古迹"
+    },
+    {
+      "name": "八达岭长城",
+      "ticket": 40,
+      "duration_min": 240,
+      "type": "古迹"
+    },
+    {
+      "name": "天坛公园",
+      "ticket": 34,
+      "duration_min": 150,
+      "type": "古迹"
+    },
+    {
+      "name": "颐和园",
+      "ticket": 60,
+      "duration_min": 240,
+      "type": "园林"
+    },
+    {
+      "name": "圆明园",
+      "ticket": 25,
+      "duration_min": 180,
+      "type": "园林"
+    },
+    {
+      "name": "北海公园",
+      "ticket": 10,
+      "duration_min": 120,
+      "type": "公园"
+    },
+    {
+      "name": "中国国家博物馆",
+      "ticket": 0,
+      "duration_min": 240,
+      "type": "博物馆"
+    },
+    {
+      "name": "恭王府",
+      "ticket": 40,
+      "duration_min": 150,
+      "type": "古迹"
+    },
+    {
+      "name": "天安门广场",
+      "ticket": 0,
+      "duration_min": 60,
+      "type": "广场"
+    },
+    {
+      "name": "南锣鼓巷",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "街区"
+    },
+    {
+      "name": "王府井大街",
+      "ticket": 0,
+      "duration_min": 90,
+      "type": "街区"
+    },
+    {
+      "name": "798 艺术区",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "街区"
+    },
+    {
+      "name": "雍和宫",
+      "ticket": 25,
+      "duration_min": 90,
+      "type": "宗教"
+    },
+    {
+      "name": "奥林匹克森林公园",
+      "ticket": 0,
+      "duration_min": 120,
+      "type": "公园"
+    }
+  ]
+}
